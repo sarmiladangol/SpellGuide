@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ResultViewController.h"
+#import "TableViewController.h"
 @interface ViewController ()
 
 @end
@@ -85,7 +85,7 @@ NSMutableArray *inputArray;
     if ([[segue identifier] isEqualToString:@"showResult"])
     {
         // Get reference to the destination view controller
-        ResultViewController *vc = [segue destinationViewController];
+        TableViewController *vc = [segue destinationViewController];
         
         // Pass any objects to the view controller here, like...
         
