@@ -11,5 +11,7 @@
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *inputTextField;
 @property (weak, nonatomic) IBOutlet UIButton *helpButton;
+@property (weak, nonatomic) IBOutlet UIPickerView *dictionaryPicker;
+
 @end
 

@@ -45,9 +45,13 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"reuseIdentifier" forIndexPath:indexPath];
-    
-    cell.textLabel.text=[NSString stringWithFormat:@"%c as %@",[_resultArray[indexPath.row] characterAtIndex:0] - 32, _resultArray [indexPath.row]];
-    
+    char firstLetter =[_resultArray[indexPath.row] characterAtIndex:0];
+    if(firstLetter > 96 && firstLetter < 123){
+        cell.textLabel.text=[NSString stringWithFormat:@"%c as %@",firstLetter - 32, _resultArray [indexPath.row]];
+    }
+    else {
+        cell.textLabel.text = [NSString stringWithFormat:@"%c", firstLetter];
+    }
     return cell;
 }
 
