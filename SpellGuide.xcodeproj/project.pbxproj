@@ -15,6 +15,7 @@
 		C61CDB241CFF1CF500CC0892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61CDB221CFF1CF500CC0892 /* LaunchScreen.storyboard */; };
 		C61CDB2D1CFF2EFA00CC0892 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61CDB2C1CFF2EFA00CC0892 /* ResultViewController.m */; };
 		C61CDB301CFF58B400CC0892 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C61CDB2F1CFF58B400CC0892 /* TableViewController.m */; };
+		C61CDB321CFF721200CC0892 /* horse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C61CDB311CFF721200CC0892 /* horse.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		C61CDB2C1CFF2EFA00CC0892 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResultViewController.m; path = SpellGuide/ResultViewController.m; sourceTree = "<group>"; };
 		C61CDB2E1CFF58B400CC0892 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		C61CDB2F1CFF58B400CC0892 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C61CDB311CFF721200CC0892 /* horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = horse.jpg; path = Assets.xcassets/horse.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		C61CDB141CFF1CF500CC0892 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C61CDB311CFF721200CC0892 /* horse.jpg */,
 				C61CDB151CFF1CF500CC0892 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -148,6 +151,7 @@
 			files = (
 				C61CDB241CFF1CF500CC0892 /* LaunchScreen.storyboard in Resources */,
 				C61CDB211CFF1CF500CC0892 /* Assets.xcassets in Resources */,
+				C61CDB321CFF721200CC0892 /* horse.jpg in Resources */,
 				C61CDB1F1CFF1CF500CC0892 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
